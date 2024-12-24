@@ -29,3 +29,6 @@ Here's what I did:
 
 QT5 takes up almost 400G and isnt used when we are running headless - if you can figure out how to run without QT the image will be even better. You might be able to build gz sim and not compile in the qt stuff?
 
+heres a link to the only cmake file in gzsim that depends on qt
+
+https://github.com/gazebosim/gz-sim/blob/9d6230a562c5d463306070b07269b135f9ecd134/src/gui/CMakeLists.txt#L54
