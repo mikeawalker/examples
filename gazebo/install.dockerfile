@@ -6,8 +6,8 @@ COPY --from=builder /gz-build/install /gz-build/install
 
 RUN apt update && \
     apt install -y ruby\
-     #libqt5core5a \
-     #libqt5quick5 \
+     libqt5core5a \
+     libqt5quick5 \
      libtinyxml-dev \
      libpython3.12 \
      libjsoncpp25 \
@@ -18,7 +18,6 @@ RUN apt update && \
      libassimp5 \
      libfreeimage3 \ 
     gdal-bin  \ 
-    #libdart-all-dev \ 
     libprotobuf32t64 \ 
     libbullet-dev \ 
     libdart-dev \

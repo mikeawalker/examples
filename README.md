@@ -27,5 +27,5 @@ Here's what I did:
 
 **Where is the best place to look for more reduction?**
 
-QT5 takes up almost 400G and isnt used when we are running headless - if you can figure out how to run without QT the image will be even better. 
+QT5 takes up almost 400G and isnt used when we are running headless - if you can figure out how to run without QT the image will be even better. You might be able to build gz sim and not compile in the qt stuff?
 
