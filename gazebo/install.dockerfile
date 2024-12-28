@@ -8,7 +8,6 @@ RUN apt update && \
     apt install -y ruby\
      libqt5core5a \
      libqt5quick5 \
-     libtinyxml-dev \
      libpython3.12 \
      libjsoncpp25 \
      libzip-dev \
@@ -23,8 +22,9 @@ RUN apt update && \
     libdart-dev \
     libdart-collision-ode-dev \ 
     libdart-collision-bullet-dev \ 
-    curl 
-
+    curl &&\
+    rm -rf /var/lib/apt/lists/* && \
+    apt-get clean
 
 ENV GZ_CONFIG_PATH=/gz-build/install/share/gz 
 ENV LD_LIBRARY_PATH=/gz-build/install/lib 

@@ -16,6 +16,17 @@ I use this for checkpointing my containerized applications.
  Gazebo is a huge nightmare - putting it in a container to run headless following their instructions requires **at least 2G** of space...thats crazy....lets try to do better. 
  Currently I have it down to a little over 1G in size, which is not great, but still cuts down 50% of the clunk.
 
+build it with 
+```
+cd gazebo 
+make build
+```
+
+Run it with 
+```
+docker run -it gz gz-build/install/bin/gz sim -r -v -s box.sdf
+```
+
 Here's what I did: 
 
 **Multistage Build**
@@ -27,7 +38,7 @@ Here's what I did:
 
 **Where is the best place to look for more reduction?**
 
-QT5 takes up almost 400G and isnt used when we are running headless - if you can figure out how to run without QT the image will be even better. You might be able to build gz sim and not compile in the qt stuff?
+QT5 takes up almost 500G and isnt really used when we are running headless - if you can figure out how to run without QT the image will be a image of less than 700M in size. You might be able to build gz sim and not compile in the qt stuff?
 
 heres a link to the only cmake file in gzsim that depends on qt
 
