@@ -13,6 +13,7 @@ build:
 .PHONY: test 
 test: 
 	echo "do test" 
+	pytest 
 
 
 .PHONY: version 
