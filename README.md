@@ -43,3 +43,24 @@ QT5 takes up almost 500G and isnt really used when we are running headless - if 
 heres a link to the only cmake file in gzsim that depends on qt
 
 https://github.com/gazebosim/gz-sim/blob/9d6230a562c5d463306070b07269b135f9ecd134/src/gui/CMakeLists.txt#L54
+
+## DTED
+ 
+Digital Terrain Elevation Data (DTED) is a standardized set of data which provide terrain elevation data for the Earth. 
+
+This set of python tools helps download and interact with the DTED data which is publically available. 
+
+https://en.wikipedia.org/wiki/DTED
+
+## python-pkg 
+
+A basic example of the format and structure of a python package with 
+- packaing for pip
+- unit testing 
+- auto-versioning via emoji 
+
+I'll set it up using a 'src layout' 
+
+Read about that here:
+https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/#src-layout-vs-flat-layout
+

@@ -1,0 +1,11 @@
+[tool.semantic_release]
+version_variables = ["setup.py:__version__"]
+commit_parser = "emoji" 
+
+
+[semantic_release.commit_parser_options]
+major_tags = [":boom:"]
+minor_tags = [
+    ":fire:", ":sparkle:" ]
+patch_tags = [
+    ":memo:", ":lock:", ":bug:" ]
