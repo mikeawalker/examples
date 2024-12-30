@@ -46,10 +46,18 @@ https://github.com/gazebosim/gz-sim/blob/9d6230a562c5d463306070b07269b135f9ecd13
 
 ## python-pkg 
 
+To get this working you should 
+
+```
+pip3 install numpy
+pip3 install setuptools 
+pip3 install python-semantic-release
+```
+
 A basic example of the format and structure of a python package with 
 - packaing for pip
 - unit testing 
-- auto-versioning via emoji 
+- auto-versioning via gitmoji and python-semantic-release 
 
 I'll set it up using a 'src layout' 
 
