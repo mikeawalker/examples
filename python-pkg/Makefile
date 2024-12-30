@@ -19,5 +19,5 @@ test:
 .PHONY: version 
 version: 
 	echo "do version" 
-
+	semantic-release version 
 	
