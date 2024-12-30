@@ -64,3 +64,5 @@ I'll set it up using a 'src layout'
 Read about that here:
 https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/#src-layout-vs-flat-layout
 
+
+There are pro's and cons to the src/flat layout described at the link above. If you want to use flat go ahead. This example uses src layout.
