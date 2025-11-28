@@ -2,6 +2,9 @@
 
 I keep examples of stuff in here for further reference 
 
+## daggerio 
+
+Dagger.io is a ci/cd framework that while complex is very powerful and extensible in ways that github actions, gitlab ci, jenkins, etc are not. Some helpful patterns using dagger are stored here. 
 
 ## DMTCP 
 
