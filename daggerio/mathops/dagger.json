@@ -1,0 +1,7 @@
+{
+  "name": "mathops",
+  "engineVersion": "v0.19.6",
+  "sdk": {
+    "source": "python"
+  }
+}
